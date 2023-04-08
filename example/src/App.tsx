@@ -1,10 +1,23 @@
 import React from 'react'
 
-import { ExampleComponent } from 'ozlemezgubuton'
+import { Button } from 'ozlemezgubuton'
 import 'ozlemezgubuton/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return (
+    <>
+      <Button type='secondary' text='Click Me' /> 
+      <br />
+      <br />
+      <Button type='primary' text='Click Me' /> 
+      <br />
+      <br />
+      <Button type='dotted' text='Click Me' /> 
+      <br />
+      <br />
+      <Button type='link' text='Click Me' />
+    </>
+  ) 
 }
 
 export default App

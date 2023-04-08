@@ -15,7 +15,7 @@ npm install --save ozlemezgubuton
 ```tsx
 import React, { Component } from 'react'
 
-import MyComponent from 'ozlemezgubuton'
+import { Button } from 'ozlemezgubuton'
 import 'ozlemezgubuton/dist/index.css'
 
 class Example extends Component {

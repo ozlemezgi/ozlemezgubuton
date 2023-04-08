@@ -20,10 +20,21 @@ import 'ozlemezgubuton/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return (<>
+     <Button type='secondary' text='Click Me' /> 
+      <Button type='primary' text='Click Me' /> 
+      <Button type='dotted' text='Click Me' /> 
+      <Button type='link' text='Click Me' />
+    </>)
   }
 }
 ```
+
+
+## Ekran Görüntüsü
+
+![Uygulama ekran görüntüsü](./img/resim.png)
+
 
 ## License
 
